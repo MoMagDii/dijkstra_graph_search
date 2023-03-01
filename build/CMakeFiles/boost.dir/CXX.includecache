@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/momagdii/graph2/main.cpp
+boost/config.hpp
+-
+iostream
+-
+fstream
+-
+boost/graph/graph_traits.hpp
+-
+boost/graph/adjacency_list.hpp
+-
+boost/graph/dijkstra_shortest_paths.hpp
+-
+boost/graph/graphviz.hpp
+/home/momagdii/graph2/boost/graph/graphviz.hpp
+

@@ -1,0 +1,81 @@
+digraph D {
+  rankdir=LR
+  size="4,3"
+  ratio="fill"
+  edge[style="bold"]
+  node[shape="circle"]
+A -> D[label="30", color="black"]B -> C[label="30", color="grey"]C -> E[label="2.52422", color="grey"]D -> F[label="2.52422", color="black"]E -> F[label="9.375", color="grey"]E -> G[label="2.5242", color="grey"]E -> H[label="5.3125", color="grey"]F -> H[label="5.3125", color="black"]F -> J[label="6.832", color="black"]G -> I[label="2.12132", color="grey"]G -> N[label="12.3526", color="grey"]G -> H[label="5", color="grey"]H -> I[label="3.80789", color="black"]H -> J[label="3.8772", color="grey"]H -> K[label="5.7547", color="grey"]I -> K[label="7.77867", color="grey"]I -> M[label="8.8", color="grey"]J -> K[label="0.447833", color="black"]J -> R[label="13.8617", color="grey"]K -> L[label="0.382326", color="black"]L -> M[label="8.96437", color="black"]L -> Q[label="10.8", color="black"]M -> O[label="0.440607", color="black"]N -> O[label="0.60631", color="grey"]N -> T[label="10.258", color="black"]O -> P[label="4.98565", color="black"]P -> Q[label="4.34916", color="grey"]P -> S[label="4.81845", color="black"]Q -> R[label="0.696285", color="black"]R -> W[label="9.50461", color="black"]S -> T[label="3.32539", color="grey"]S -> Y[label="6.87385", color="black"]T -> U[label="3.76475", color="black"]U -> V[label="2.23911", color="black"]U -> X[label="2.57359", color="black"]U -> Y[label="6.89565", color="grey"]V -> X[label="2", color="grey"]V -> #[label="30", color="black"]W -> Z[label="3.91312", color="black"]X -> Y[label="5.11553", color="grey"]X -> Z[label="8.73212", color="grey"]X -> #[label="30.06", color="grey"]X -> $[label="31.04", color="grey"]Y -> Z[label="4.50591", color="grey"]Z -> $[label="26.5", color="black"]}graph G {
+0;
+1;
+2;
+3;
+4;
+5;
+6;
+7;
+8;
+9;
+10;
+11;
+12;
+13;
+14;
+15;
+16;
+17;
+18;
+19;
+20;
+21;
+22;
+23;
+24;
+25;
+26;
+27;
+0--3 ;
+1--2 ;
+2--4 ;
+3--5 ;
+4--5 ;
+4--6 ;
+4--7 ;
+5--7 ;
+5--9 ;
+6--8 ;
+6--13 ;
+6--7 ;
+7--8 ;
+7--9 ;
+7--10 ;
+8--10 ;
+8--12 ;
+9--10 ;
+9--17 ;
+10--11 ;
+11--12 ;
+11--16 ;
+12--14 ;
+13--14 ;
+13--19 ;
+14--15 ;
+15--16 ;
+15--18 ;
+16--17 ;
+17--22 ;
+18--19 ;
+18--24 ;
+19--20 ;
+20--21 ;
+20--23 ;
+20--24 ;
+21--23 ;
+21--26 ;
+22--25 ;
+23--24 ;
+23--25 ;
+23--26 ;
+23--27 ;
+24--25 ;
+25--27 ;
+}
